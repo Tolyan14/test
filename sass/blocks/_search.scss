@@ -1,0 +1,60 @@
+.search {
+    padding: 35px 0 35px;
+    background: rgb(23, 24, 25);
+    height: 100%;
+
+    &__wrapper {
+        margin: 0 auto;
+        max-width: 685px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        vertical-align: center;
+
+        @media (max-width: 680px) {
+            display: block;
+        }
+    }
+
+    &__title {
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-align: center;
+
+        @media (max-width: 680px) {
+            letter-spacing: 0;
+        }
+    }
+
+    &__bar {
+        @media (max-width: 680px) {
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+
+    &__bar-nav {
+        width: 250px;
+        padding: 11px 0 11px 16px;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+
+    &__btn {
+        width: 150px;
+        padding: 13px 0 13px;
+        background: rgb(0, 164, 229);
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        text-align: center;
+        border-radius: 10px;
+
+        @media (max-width: 435px) {
+            margin-top: 8px;
+        }
+    }
+}

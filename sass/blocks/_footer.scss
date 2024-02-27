@@ -1,0 +1,136 @@
+.footer {
+    padding: 34px 50px;
+    background: rgb(20, 26, 32);
+
+    
+
+    &__logo {
+        margin-bottom: 17px;
+    }
+
+    
+       
+    
+
+    &__links-name {
+        margin-bottom: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 11px;
+        line-height: 19px;
+        letter-spacing: 0.85px;
+    }
+
+    &__li {
+        // padding-bottom: 20px;
+        color: rgb(255, 255, 255);
+        font-size: 11px;
+        line-height: 25px;
+        letter-spacing: 0.85px;
+
+        @media (max-width: 395px) {
+            font-size: 10px;
+        }
+
+    }
+
+    
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 940px;
+        // gap: 35px;
+        // align-items: center;
+
+        @media (max-width: 700px) {
+           display: flex;
+           justify-content: center;
+           flex-direction: column;
+           align-items: center;
+        }
+
+        @media (max-width: 1060px) {
+            flex-wrap: wrap;
+        }
+
+        
+
+       
+    }
+    &__company {
+        max-width: 250px;
+        margin-right: 4px;
+
+        @media (max-width: 680px) {
+            text-align: center;
+            align-items: center;
+            margin: 0 auto;
+
+            .logo-img {
+                margin: 0 auto;
+            }
+        }
+
+        &-name {
+            margin-bottom: 19px;
+            color: rgb(255, 255, 255);
+            font-size: 11px;
+            letter-spacing: 0.85px;
+        }
+    }
+
+    &__ul {
+        display: flex;
+        gap: 35px;
+    }
+
+    &__adress {
+        max-width: 154px;
+        margin-left: -26px;
+
+        @media (max-width: 680px) {
+            margin-left: 0;
+            text-align: center;
+        }
+
+        @media (max-width: 1060px) {
+            margin-left: 0;
+        }
+
+        &-title {
+            color: rgb(255, 255, 255);
+            margin-bottom: 15px;
+            font-size: 11px;
+            letter-spacing: 0.85px;
+            text-align: left;
+
+            @media (max-width: 680px) {
+                text-align: center;
+            }
+        }
+
+        &-name {
+            color: rgb(255, 255, 255);
+
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 19px;
+        }
+    }
+
+    &__descr {
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        line-height: 19px;
+        letter-spacing: 0.7px;
+    }
+
+    &__social {
+        margin-top: 30px;
+        display: flex;
+        gap: 30px;
+
+        
+    }
+}
